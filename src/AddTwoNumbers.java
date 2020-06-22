@@ -1,4 +1,4 @@
-// package src;
+package src;
 
 public class AddTwoNumbers {
    
@@ -9,7 +9,7 @@ public class AddTwoNumbers {
 
       sum = num1 + num2;
       
-      System.out.println("Sum of these numbers: " + sum);
+      logger.log("Sum of these numbers: " + sum);
    }
 
 }
